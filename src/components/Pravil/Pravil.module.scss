@@ -1,0 +1,123 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 60px;
+  }
+  
+  .main__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f4f7;
+    max-width: 1200px;
+    border-radius: 20px;
+    padding: 40px;
+  
+    @media (max-width: 768px) {
+      padding: 20px;
+    }
+  }
+  
+  h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #1d2d50;
+  
+    @media (max-width: 768px) {
+      font-size: 22px;
+    }
+  }
+  
+  .delivery__text {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  h3 {
+    font-size: 21px;
+    font-weight: bold;
+    color: #1d2d50;
+    margin-bottom: 15px;
+  
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
+  }
+  
+  .rules__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    text-align: left;
+  
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+  }
+  
+  .text__cart {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+  
+    p {
+      font-size: 16px;
+      font-weight: 600;
+      color: #6b7280;
+      margin-bottom: 8px;
+  
+      @media (max-width: 768px) {
+        font-size: 14px;
+      }
+    }
+  
+    h5 {
+      font-size: 14px;
+      font-weight: normal;
+      color: #1d2d50;
+      line-height: 1.4;
+  
+      @media (max-width: 768px) {
+        font-size: 13px;
+      }
+    }
+  }
+  
+  .damage__section {
+    margin-top: 30px;
+    width: 100%;
+    text-align: left;
+  
+    h4 {
+      font-size: 16px;
+      color: #4b5563;
+      line-height: 1.5;
+      margin-bottom: 10px;
+  
+      @media (max-width: 768px) {
+        font-size: 14px;
+      }
+    }
+  
+    ul {
+      padding-left: 20px;
+  
+      li {
+        font-size: 16px;
+        color: #4b5563;
+        margin-bottom: 8px;
+        line-height: 1.4;
+  
+        @media (max-width: 768px) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  

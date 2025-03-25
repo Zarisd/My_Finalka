@@ -1,0 +1,153 @@
+.footer {
+    background: #272934;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-top: 60px;
+    padding: 20px;
+
+ .wrapper{
+    display: flex;
+      flex-direction: column;
+
+      max-width: 1400px;
+      width: 100%;
+ }
+ 
+    .wrapp{
+   
+        display: flex;
+        justify-content: space-between; 
+        gap: 150px;
+        @media (max-width: 700px ) {
+            align-items: center;
+            flex-direction: column;
+          gap: 10px;
+        }
+    }
+  
+    .title {
+      font-size: 18px;
+      margin-bottom: 10px;
+      @media (max-width: 700px) {
+        font-size: 14px;
+      }
+    }
+  
+    .list {
+      list-style: none;
+      padding: 0;
+      li {
+        margin-bottom: 5px;
+      }
+    }
+  
+    .links {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+      padding: 20px;
+  
+  @media (max-width: 600px) {
+    gap: 5px;
+  }
+      
+      
+    }
+    .link{
+      text-decoration: none;
+      color: #fff;
+      transition: 1s;
+      display: flex;
+        width: max-content;
+        flex-direction: column;
+      
+  &::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #007bff;
+display: inline-block;
+transition: 0.5s;
+
+}
+&:hover{
+color: #007bff;
+&::after, &::before{
+    width: 100%;
+
+  }
+}
+
+     }
+    .bottom {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     gap: 30px;
+     @media (max-width: 500px ) {
+        flex-direction: column;
+      gap: 10px;
+    }
+
+    @media (max-width: 700px) {
+      gap: 15px;
+    }
+  
+  
+   
+     .socials{
+      display: flex;
+      gap: 20px;
+     }
+    }
+
+  }
+
+
+  @media (max-width: 320px) {
+    .footer {
+      padding: 10px;
+  
+      .wrapp {
+        gap: 10px;
+        align-items: center;
+        text-align: center;
+      }
+  
+      .links {
+        padding: 10px;
+        gap: 5px;
+        flex-direction: column;
+        align-items: center;
+      }
+  
+      .bottom {
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+  
+        .socials {
+          gap: 10px;
+        }
+      }
+  
+      .title {
+        font-size: 14px;
+      }
+  
+      .list li {
+        font-size: 12px;
+      }
+  
+      .link {
+        font-size: 12px;
+      }
+    }
+  }
+  

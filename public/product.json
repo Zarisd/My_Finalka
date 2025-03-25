@@ -1,0 +1,476 @@
+{
+  "projects": [
+  
+    {
+      "id": "1",
+      "title": "Карбоновый велосипед",
+      "category": "bike",
+      "price": 180.000,
+      "image": "https://ae04.alicdn.com/kf/Sf95f72be15d04d2fa33cfcdab7f314a6d.jpg_480x480.jpg",
+      "rate": 5,
+      "description": "Сверхлегкий и маневренный. Отличный выбор для шоссе, но требует аккуратного обращения."
+    },
+
+    {
+      "id": "2",
+      "title": "Карбоновый велосипед",
+      "category": "bike",
+      "price": 80,
+      "image": "https://ae04.alicdn.com/kf/Sf95f72be15d04d2fa33cfcdab7f314a6d.jpg_480x480.jpg",
+      "rate": 4.6,
+      "description": "Сверхлегкий и маневренный. Отличный выбор для шоссе, но требует аккуратного обращения."
+    },
+
+    {
+      "id": "3",
+      "title": "Горный велосипед",
+      "category": "bike",
+      "price": 90,
+      "image": "https://olcha.uz/image/600x600/products/3ZI8zM6o8DCSjgKVPubrVE1nKJZFySVtX7TqOWtUaZpfZpefQSb9Qen5ZV5K.jpg",
+      "rate": 4.7,
+      "description": "Спроектирован для пересеченной местности. Прочные колеса и амортизация обеспечивают комфорт на бездорожье."
+    },
+    {
+      "id": "4",
+      "title": "Городской эконом",
+      "category": "bike",
+      "price": 45,
+      "image": "https://s7.stc.all.kpcdn.net/expert/wp-content/uploads/2021/11/600x600-10-600x540.jpeg",
+      "rate": 4.2,
+      "description": "Простой и удобный велосипед для передвижения по городу. Оптимальный вариант для коротких поездок."
+    },
+    {
+      "id": "5",
+      "title": "Шоссейный велосипед",
+      "category": "bike",
+      "price": 150,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZP-khzBnvBqMiGkSGPWdh3lalou-yI4uWcw&s",
+      "rate": 4.8,
+      "description": "Максимальная скорость и легкость. Идеален для длительных поездок по асфальту."
+    },
+    {
+      "id": "6",
+      "title": "Детский велосипед",
+      "category": "bike",
+      "price": 60,
+      "image": "https://yarodilsya.uz/wp-content/uploads/2023/04/032b2cc936860b03048302d991c3498f_032923132657.jpeg",
+      "rate": 4.3,
+      "description": "Безопасный и удобный велосипед для детей. Устойчивые колеса и яркий дизайн."
+    },
+    {
+      "id": "7",
+      "title": "Электровелосипед",
+      "category": "bike",
+      "price": 250,
+      "image": "https://electro-car.uz/image/cache/catalog/i/kh/an/52ee4439c6c8e0a0ac3eebfc06ebd51f-700x700.jpg",
+      "rate": 5,
+      "description": "Оснащен электромотором, который поможет в движении. Идеален для дальних поездок без усталости."
+    },
+    {
+      "id": "8",
+      "title": "Складной велосипед",
+      "category": "bike",
+      "price": 100,
+      "image": "https://cdnp.cody.mn/spree/images/2458458/large/open-uri20240619-1386835-y8j3lx.?1718772154",
+      "rate": 4.4,
+      "description": "Компактный и удобный. Легко складывается, что делает его отличным вариантом для путешествий."
+    },
+    {
+      "id": "9",
+      "title": "Гибридный велосипед",
+      "category": "bike",
+      "price": 130,
+      "image": "https://velojournal.net/sites/default/files/styles/700px/public/inline-images/deverge-flat-bar.jpg?itok=TRbszyqL",
+      "rate": 4.6,
+      "description": "Совмещает преимущества горного и шоссейного велосипеда. Удобен как в городе, так и на природе."
+    },
+    {
+      "id": "10",
+      "title": "Женский городской велосипед",
+      "category": "bike",
+      "price": 85,
+      "image": "https://citycycle.ru/upload/product_images/270809/8f862e9e59c1e28171bf1eb0041cc3d9_0x0.jpg",
+      "rate": 4.7,
+      "description": "Элегантный и удобный велосипед с низкой рамой. Прекрасно подходит для прогулок по городу."
+    },
+    {
+      "id": "11",
+      "title": "Фэтбайк",
+      "category": "bike",
+      "price": 200,
+      "image": "https://static.richfamily.ru/photo/28/05/280576/1.webp",
+      "rate": 4.9,
+      "description": "Широкие покрышки обеспечивают устойчивость и проходимость на песке, снегу и грязи."
+    },
+    {
+      "id": "12",
+      "title": "Тандем велосипед",
+      "category": "bike",
+      "price": 220,
+      "image": "https://i4.storeland.net/2/2266/122651267/afacdb/velosiped-gorodskoj-format-5221-2020.jpg",
+      "rate": 4.8,
+      "description": "Велосипед для двоих. Отличный вариант для совместных прогулок и развлечений."
+    },
+    {
+      "id": "13",
+      "title": "BMX",
+      "category": "bike",
+      "price": 75,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ80ApSse_DdOnxhHHtkGCXCRaRyqJpB80kQA&s",
+      "rate": 4.5,
+      "description": "Создан для трюков и экстремального катания. Компактная рама и усиленные колеса."
+    },
+    {
+      "id": "14",
+      "title": "Гравийный велосипед",
+      "category": "bike",
+      "price": 160,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6jWMYwTqPSFnpcvaEo5VEpLZL22yvPrPkWQ&s",
+      "rate": 4.6,
+      "description": "Комфортное движение по гравийным дорогам и легкому бездорожью. Идеален для путешествий."
+    },
+    {
+      "id": "15",
+      "title": "Фитнес велосипед",
+      "category": "bike",
+      "price": 140,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAF03ANdnLyzk2hXfts4WnFtYZB5fEAsR_sw&s",
+      "rate": 4.7,
+      "description": "Легкий и быстрый. Отличный выбор для спортивных тренировок и активного образа жизни."
+    },
+    {
+      "id": "16",
+      "title": "Ретро велосипед",
+      "category": "bike",
+      "price": 95,
+      "image": "https://cdn.velostrana.ru/upload/models/velo/52527/full.jpg",
+      "rate": 4.4,
+      "description": "Стильный велосипед в винтажном дизайне. Комфортное седло и широкие колеса."
+    },
+    {
+      "id": "17",
+      "title": "Городской электросамокат",
+      "category": "scooter",
+      "price": 150,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_ODzLr6RMzUt2Oll6L8hfBPnOdH_7XF4RJg&s",
+      "rate": 4.6,
+      "description": "Легкий и удобный электросамокат для передвижения по городу. Оптимальный баланс скорости и автономности."
+    },
+    {
+      "id": "18",
+      "title": "Складной электросамокат",
+      "category": "scooter",
+      "price": 180,
+      "image": "https://e-samokat.com/d/aqua_truck_kupit.jpg",
+      "rate": 4.7,
+      "description": "Компактный и легкий электросамокат с системой быстрого складывания. Отлично подходит для поездок на работу."
+    },
+    {
+      "id": "19",
+      "title": "Электросамокат с сиденьем",
+      "category": "scooter",
+      "price": 220,
+      "image": "https://skuter77.ru/image/cache/catalog/products/2017/05/Electrosamokat/PowerCoreE100S_RD_Product_800x800-1000x1000_0.jpg",
+      "rate": 4.8,
+      "description": "Комфортная модель с удобным сиденьем. Идеально подходит для длительных поездок по городу."
+    },
+    {
+      "id": "20",
+      "title": "Внедорожный электросамокат",
+      "category": "scooter",
+      "price": 350,
+      "image": "https://www.electroway.ru/upload/iblock/8c1/jz421ht46plnbd9rktoqs4v8d34o69zd.webp?1710278166",
+      "rate": 4.9,
+      "description": "Мощные колеса и двойная амортизация делают этот электросамокат идеальным для бездорожья."
+    },
+    {
+      "id": "21",
+      "title": "Детский электросамокат",
+      "category": "scooter",
+      "price": 120,
+      "image": "https://api.idea.uz/storage/products/July2024/pF57mjNhALHF0F5ROGTs.png",
+      "rate": 4.5,
+      "description": "Безопасный и легкий электросамокат с ограниченной скоростью. Отличный выбор для детей."
+    },
+    {
+      "id": "22",
+      "title": "Электросамокат для двоих",
+      "category": "scooter",
+      "price": 280,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvH6crMghit7IDZR2eCk6Tb93GJV5doEGk4A&s",
+      "rate": 4.7,
+      "description": "Прочная конструкция и увеличенная мощность позволяют кататься вдвоем. Идеален для прогулок."
+    },
+    {
+      "id": "23",
+      "title": "Бюджетный электросамокат",
+      "category": "scooter",
+      "price": 100,
+      "image": "https://s8.stc.all.kpcdn.net/expert/wp-content/uploads/2022/11/1-17.jpg",
+      "rate": 4.3,
+      "description": "Доступная модель с базовым функционалом. Хороший вариант для начинающих пользователей."
+    },
+    {
+      "id": "24",
+      "title": "Электросамокат с большим запасом хода",
+      "category": "scooter",
+      "price": 400,
+      "image": "https://5kwt.ru/upload/resize_cache/iblock/d32/762_448_1/Snimok-ekrana-2023_05_26-v-18.38.20.png",
+      "rate": 5,
+      "description": "Мощный аккумулятор позволяет проезжать до 100 км на одном заряде. Идеален для дальних поездок."
+    },
+    {
+      "id": "25",
+      "title": "Спортивный электросамокат",
+      "category": "scooter",
+      "price": 300,
+      "image": "https://elsport.ru/image/cache/catalog/el-sport-r7/001_r7-1200x800.jpg",
+      "rate": 4.8,
+      "description": "Высокая скорость и усиленная подвеска. Подходит для агрессивной езды и активного отдыха."
+    },
+    {
+      "id": "26",
+      "title": "Ретро электросамокат",
+      "category": "scooter",
+      "price": 250,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWGSg2NB1qB5kHla-RMtBuokARwPuekw-Dew&s",
+      "rate": 4.6,
+      "description": "Элегантный дизайн в стиле ретро с кожаным сиденьем. Для тех, кто ценит стиль и комфорт."
+    },
+    {
+      "id": "27",
+      "title": "Мини-электросамокат",
+      "category": "scooter",
+      "price": 90,
+      "image": "https://eco-wheels.ru/d/et_mini_elektrosamokat_kupit_deshevo.jpg",
+      "rate": 4.4,
+      "description": "Компактный и легкий электросамокат для небольших поездок. Легко помещается в багажнике автомобиля."
+    },
+    {
+      "id": "28",
+      "title": "Электросамокат с Bluetooth-динамиками",
+      "category": "scooter",
+      "price": 270,
+      "image": "https://mihome.uz/wp-content/uploads/2024/04/5007.jpg",
+      "rate": 4.7,
+      "description": "Музыка во время поездки! Встроенные динамики позволяют слушать любимые треки прямо во время катания."
+    },
+    {
+      "id": "29",
+      "title": "Универсальный сапборд",
+      "category": "supboard",
+      "price": 200,
+      "image": "https://supboard-russia.ru/d/sup-doska_my_sup_106_ocean_universalnaya.jpg",
+      "rate": 4.6,
+      "description": "Отличный выбор для любых условий – озеро, море или река. Сбалансированное сочетание устойчивости и маневренности."
+    },
+    {
+      "id": "30",
+      "title": "Туринговый сапборд",
+      "category": "supboard",
+      "price": 280,
+      "image": "https://supboard.ru/d/sapbord-naduvnoj-ecsi_expert-touring-12-6-polnyj-komplekt.png",
+      "rate": 4.8,
+      "description": "Удлиненная форма для скоростных заплывов и дальних маршрутов. Идеально подходит для путешествий по воде."
+    },
+    {
+      "id": "31",
+      "title": "Гоночный сапборд",
+      "category": "supboard",
+      "price": 350,
+      "image": "https://supboard.ru/thumb/2/e9e3obBQjz1-n0QRoeaGtQ/350r350/d/nordic_ride_race_140_28.jpg",
+      "rate": 4.9,
+      "description": "Максимальная скорость и эффективность. Создан для соревнований и спортивных тренировок."
+    },
+    {
+      "id": "32",
+      "title": "Сапборд для йоги",
+      "category": "supboard",
+      "price": 260,
+      "image": "https://supboard-russia.ru/thumb/2/rC2PdtBGxV8nRlxY8mALnw/450r450/d/sapbord-lime-sup-travel-12-2-bluev-polnyi-komplekt.jpg",
+      "rate": 4.7,
+      "description": "Широкая и устойчивая платформа идеально подходит для занятий йогой и медитации на воде."
+    },
+    {
+      "id": "33",
+      "title": "Сапборд с прозрачным дном",
+      "category": "supboard",
+      "price": 320,
+      "image": "https://main-cdn.sbermegamarket.ru/big2/hlr-system/489/932/467/917/122/4/600015010984b1.jpg",
+      "rate": 4.8,
+      "description": "Открой подводный мир! Прозрачное дно позволяет наблюдать за жизнью под водой во время плавания."
+    },
+    {
+      "id": "34",
+      "title": "Детский сапборд",
+      "category": "supboard",
+      "price": 150,
+      "image": "https://supboard.ru/thumb/2/SFq5qzxUndTffN62nTlENQ/350r350/d/sapbord-summer-vibes-kids-80-komplektaciya.jpg",
+      "rate": 4.5,
+      "description": "Компактная и легкая модель, разработанная специально для детей. Отличный вариант для обучения и развлечений."
+    },
+    {
+      "id": "35",
+      "title": "Семейный сапборд",
+      "category": "supboard",
+      "price": 400,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOLO4Xxh9pbv9Nrb_QJqd2uwVFoQTqjQYlfA&s",
+      "rate": 5,
+      "description": "Увеличенная грузоподъемность позволяет кататься всей семьей. Просторная и устойчивая модель."
+    },
+    {
+      "id": "36",
+      "title": "Фитнес сапборд",
+      "category": "supboard",
+      "price": 290,
+      "image": "https://sportimperial.ru/upload/iblock/38f/38fb9d8fab7428ee46543f1fe44187c5.jpg",
+      "rate": 4.7,
+      "description": "Разработан для фитнес-тренировок и активных водных упражнений. Отличный выбор для занятий спортом."
+    },
+    {
+      "id": "37",
+      "title": "Ретро сапборд",
+      "category": "supboard",
+      "price": 270,
+      "image": "https://cdn1.technopark.ru/technopark/photos_resized/product/1000_1000/746511/1_746511.jpg?timestamp=2024-07-04_09-50-35",
+      "rate": 4.6,
+      "description": "Стильный винтажный дизайн в сочетании с современными технологиями. Для тех, кто ценит эстетику."
+    },
+    {
+      "id": "38",
+      "title": "Сапборд для рыбалки",
+      "category": "supboard",
+      "price": 310,
+      "image": "https://supboard.ru/thumb/2/5ehtA7SzgryoEb_5kjEzeA/350r350/d/sapbord-dlya-rybalki-k-xone-go-fishing-eva-kovrik.jpg",
+      "rate": 4.9,
+      "description": "Оснащен держателями для удочек и дополнительным местом для снаряжения. Идеален для рыбаков."
+    },
+    {
+      "id": "39",
+      "title": "Сапборд с парусом",
+      "category": "supboard",
+      "price": 350,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDHUJ2yx9sNAyXtM9oWBj0XHkwj6HbTtYJXQ&s",
+      "rate": 4.8,
+      "description": "Позволяет использовать силу ветра для движения. Отличный вариант для любителей парусного спорта."
+    },
+    {
+      "id": "40",
+      "title": "Премиум сапборд",
+      "category": "supboard",
+      "price": 450,
+      "image": "https://supboard-spb.ru/d/stormline_premium_126.jpg",
+      "rate": 5,
+      "description": "Легкие и прочные материалы, ультрасовременный дизайн и высочайшее качество. Для самых требовательных райдеров."
+    },
+    {
+      "id": "41",
+      "title": "Универсальный каяк",
+      "category": "kayak",
+      "price": 300,
+      "image": "https://www.paddler.ru/wp-content/uploads/2022/12/AllWater.jpg",
+      "rate": 4.7,
+      "description": "Отличный выбор для рек, озер и моря. Баланс устойчивости и маневренности для комфортного плавания."
+    },
+    {
+      "id": "42",
+      "title": "Туринговый каяк",
+      "category": "kayak",
+      "price": 450,
+      "image": "https://www.kayaker-pro.ru/wa-data/public/shop/products/28/00/28/images/128/128.750.jpg",
+      "rate": 4.9,
+      "description": "Длинный и узкий корпус обеспечивает отличную скорость и курсовую устойчивость. Идеален для дальних путешествий."
+    },
+    {
+      "id": "43",
+      "title": "Морской каяк",
+      "category": "kayak",
+      "price": 500,
+      "image": "https://www.paddler.ru/wp-content/uploads/2018/11/lifestyle_duo_pe.jpg",
+      "rate": 5,
+      "description": "Создан для плавания по морю. Высокая проходимость по волнам и вместительное багажное отделение."
+    },
+    {
+      "id": "44",
+      "title": "Гоночный каяк",
+      "category": "kayak",
+      "price": 600,
+      "image": "https://www.paddler.ru/wp-content/uploads/2019/06/kayak-wk-615-extreme-1024x255.jpg",
+      "rate": 4.9,
+      "description": "Легкий и быстрый, создан для соревнований и высоких скоростей. Подходит для профессионалов."
+    },
+    {
+      "id": "45",
+      "title": "Каяк для рыбалки",
+      "category": "kayak",
+      "price": 550,
+      "image": "https://kayaker.ru/upload/webp/resize_cache/ef5/500_500_1/ef5269a0dd5adcf76c19d1b0d83b12e9.webp",
+      "rate": 4.8,
+      "description": "Оснащен держателями для удочек, удобным сиденьем и дополнительным местом для снаряжения."
+    },
+    {
+      "id": "46",
+      "title": "Складной каяк",
+      "category": "kayak",
+      "price": 400,
+      "image": "https://img.nauticexpo.ru/images_ne/photo-g/65908-18121518.webp",
+      "rate": 4.7,
+      "description": "Компактный и легкий, легко складывается в сумку. Отличный вариант для путешествий."
+    },
+    {
+      "id": "47",
+      "title": "Надувной каяк",
+      "category": "kayak",
+      "price": 350,
+      "image": "https://supboard-msk.ru/d/naduvnaya_bajdarka_bestway_hydro_force_cove_champion_komlekt.jpg",
+      "rate": 4.6,
+      "description": "Легкий и удобный в транспортировке. Быстро надувается и обладает хорошей устойчивостью."
+    },
+    {
+      "id": "48",
+      "title": "Каяк для двоих",
+      "category": "kayak",
+      "price": 480,
+      "image": "https://image.made-in-china.com/202f0j00ugJoLVlnwFkm/Double-Pedal-Kayak-Leisure-Canoe-Tandem-2-Person-Kayak-Fishing-Foot-Pedal-Drive-Kayak-with-Rudder-System.webp",
+      "rate": 4.8,
+      "description": "Просторная модель для двух человек. Отличный выбор для совместных путешествий."
+    },
+    {
+      "id": "49",
+      "title": "Экстремальный каяк",
+      "category": "kayak",
+      "price": 650,
+      "image": "https://www.abvclub.ru/files/products/toro_red_1000.800x600w.jpg?737631edcbb1a1fad0b0eb4b23290c74",
+      "rate": 5,
+      "description": "Специально разработан для сплава по горным рекам и порогам. Максимальная прочность и маневренность."
+    },
+    {
+      "id": "50",
+      "title": "Ретро каяк",
+      "category": "kayak",
+      "price": 420,
+      "image": "https://d7hftxdivxxvm.cloudfront.net/?height=427&quality=80&resize_to=fit&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FDRbaG1IvffgtM-kNrWIg0g%2Flarge.jpg&width=640",
+      "rate": 4.6,
+      "description": "Классический деревянный дизайн с современными материалами. Подойдет для ценителей стиля и традиций."
+    },
+    {
+      "id": "51",
+      "title": "Детский каяк",
+      "category": "kayak",
+      "price": 200,
+      "image": "https://www.abvclub.ru/files/products/banzai.800x600w.jpg?e1b8befe6aaefa5afe35b57e1696f884",
+      "rate": 4.5,
+      "description": "Компактная и легкая модель, разработанная специально для детей. Отличный вариант для обучения."
+    },
+    {
+      "id": "52",
+      "title": "Премиум каяк",
+      "category": "kayak",
+      "price": 700,
+      "image": "https://blausee.ru/image/cache/catalog/naduvniekayaki/novie/BF-3eksp-900x900.jpg",
+      "rate": 5,
+      "description": "Изготовлен из лучших материалов, с удобным эргономичным дизайном и высочайшим качеством сборки."
+    }
+   
+  ]
+}

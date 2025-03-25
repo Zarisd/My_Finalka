@@ -1,0 +1,42 @@
+.preloader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fff;
+  }
+ 
+
+  .loading_bar {
+    width: 150px;
+    height: 10px;
+    background-color: #ddd;
+    margin-top: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .progress {
+    width: 0;
+    height: 100%;
+    background-color: #333;
+    animation: load 2s infinite ease-in-out;
+  }
+  
+  @keyframes load {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  .gif {
+    width: 300px; 
+    height: auto;
+    margin-top: 20px;
+    
+  }
+  

@@ -1,0 +1,13 @@
+{
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
+    ],
+    "builds": [
+      {
+        "src": "src/main.jsx",
+        "use": "@vercel/node"
+      }
+    ],
+    "outputDirectory": "dist"
+  }
+  

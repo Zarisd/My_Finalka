@@ -1,0 +1,160 @@
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+.checkboxWrapper1 {
+  .checkbox{
+
+      display: flex;
+     flex-direction: row;
+  }
+}
+.inputLabel span {
+  display: inline; /* Убираем блочное поведение для текста */
+}
+
+.modal {
+  background: #fff;
+  border-radius: 16px;
+  width: 420px;
+  padding: 24px;
+  position: relative;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+
+  .close {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .tabs {
+    display: flex;
+    gap: 24px;
+
+    span {
+      cursor: pointer;
+      font-weight: 500;
+      color: #555;
+      font-size: 16px;
+    }
+
+    .active {
+      color: #297FFF;
+      border-bottom: 2px solid #2b7cf5;
+      padding-bottom: 5px;
+      font-weight: 600;
+    }
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #888;
+    font-weight: 500;
+    margin-bottom: 7px;
+  }
+
+  input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: all 0.3s;
+    outline: none;
+  }
+
+  input:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.3);
+  }
+
+  .passwordField {
+    position: relative;
+
+    .eyeIcon {
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      border: none;
+      background: none;
+      cursor: pointer;
+      font-size: 16px;
+      color: #777;
+    }
+  }
+
+  .checkbox {
+    display: flex;
+    align-items: center;
+
+flex-direction: row;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .checkbox input {
+  width: max-content;
+    accent-color: #007bff;
+  }
+
+  .submitButton {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  .submitButton:hover {
+    background: #0056b3;
+  }
+
+  .forgotPassword,
+  .alreadyRegistered {
+    text-align: center;
+    font-size: 14px;
+    color: #007bff;
+    cursor: pointer;
+  }
+
+  .alreadyRegistered span {
+    text-decoration: underline;
+  }
+}
+
+.flagIcon{
+
+
+ flex-direction: row;
+
+
+}

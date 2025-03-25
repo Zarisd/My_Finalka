@@ -1,0 +1,27 @@
+.error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.wrapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+      flex-direction: column;
+    img{
+        width: 100%;
+    }
+    button {
+        margin-top: 20px;
+        color: white;
+        background-color: #297fff;
+        padding: 10px 25px;
+        border-radius: 10px;
+        border: none;
+    }
+}

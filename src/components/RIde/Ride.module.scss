@@ -1,0 +1,109 @@
+.riding {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #f2f4f7;
+  border-radius: 20px;
+  max-width: 1200px;
+  padding: 20px;
+  margin-bottom: 35px;
+
+  @media (max-width: 1024px) {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.ride {
+  margin-bottom: 60px;
+}
+
+.ride__box {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  max-width: 1900px;
+  margin-bottom: 10px;
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color: #1d2b53;
+}
+
+.ride__image,
+.citi__image {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.ride__image img,
+.citi__image img {
+  object-fit: cover;
+  aspect-ratio: 1.5 / 1;
+  object-position: center;
+  max-width: 280px;
+  border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
+
+  @media (max-width: 1024px) {
+    max-width: 240px;
+  }
+
+  @media (max-width: 768px) {
+    max-width: 100%; // На мобильных устройствах изображения на всю ширину
+  }
+}
+
+.ride__image img:hover,
+.citi__image img:hover {
+  transform: scale(1.05);
+}
+
+.main__siti {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: #f2f4f7;
+  border-radius: 20px;
+  max-width: 1200px;
+  padding: 20px;
+
+  @media (max-width: 768px) {
+    padding: 15px;
+    max-width: 100%;
+  }
+}
+
+.box__siti {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  max-width: 1900px;
+  margin-bottom: 15px;
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+  }
+}

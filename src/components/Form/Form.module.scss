@@ -1,0 +1,132 @@
+.container__contact {
+    background-color: #f2f4f7;
+    border-radius: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    // margin-bottom: 60px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    @media (max-width: 850px) {
+        flex-direction: column;
+    }
+}
+
+.contact__info {
+    display: flex;
+    flex-direction: column;
+ 
+    h2 {
+        font-size: 24px;
+        font-weight: 700;
+        color: #111827;
+        text-align: left;
+    }
+}   
+
+.checkboxWrapper1 {
+    label{
+
+        display: flex;
+       flex-direction: row;
+    }
+  }
+ 
+  
+  .inputLabel span {
+    display: inline; /* Убираем блочное поведение для текста */
+  }
+  
+.contact__text {
+    margin-top: 20px;
+    p {
+      
+        font-size: 16px;
+        color: #6b7280;
+    }
+    h4 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #111827;
+    }
+}
+
+.contact__info_2 {
+    margin-top: 20px;
+    text-align: center;
+    p {
+        font-size: 16px;
+        color: #6b7280;
+    }
+    h3 {
+        font-size: 18px;
+        font-weight: 400;   
+        font-weight: 700;
+       
+    }
+}
+
+.contact__form {
+    display: flex;
+    justify-content: center;
+    margin-top: 66px;
+    // align-items: center;
+    p{
+        text-align: start;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.inputLabel {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #374151;
+    font-weight: 500;
+}
+
+.inputField {
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+    &:focus {
+        border-color: #2563eb;
+    }
+}
+
+.submitButton {
+    padding: 12px 20px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+        background-color: #1d4ed8;
+    }
+}
+
+.contact__map {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    iframe{
+
+        border-radius:20px ;
+    }
+}
